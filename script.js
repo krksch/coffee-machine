@@ -105,7 +105,7 @@ function trashConsole() {
   console.log(Math.random());
 }*/
 
-let interval = setInterval(trashConsole, 1000);
+/*let interval = setInterval(trashConsole, 1000);
 
 let changeButton = document.querySelector(".btn");
 changeButton.onclick = function () {
@@ -114,7 +114,7 @@ changeButton.onclick = function () {
 
 function trashConsole() {
   console.log(Math.random());
-}
+}*/
 
 
 
