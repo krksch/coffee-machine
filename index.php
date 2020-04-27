@@ -18,6 +18,7 @@
             <img src="img/americano.png" alt="">
             <span>Американо - 50 руб.</span>
           </div>
+          <!--Комментарий-->
           <div class="coffee-item" onclick="buyCoffee('Капучино', 92, this)">
             <img src="img/cappuccino.png" alt="">
             <span>Капучино - 92 руб.</span>

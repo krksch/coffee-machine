@@ -116,6 +116,33 @@ function trashConsole() {
   console.log(Math.random());
 }*/
 
+//---------Навигация по DOM-элементам
+
+/*let coffeeList = document.querySelector('.coffee-list');
+//let children = coffeeList.childNodes;
+let children = coffeeList.children;
+let firstChild = coffeeList.firstElementChild;
+let lastChild = coffeeList.lastElementChild;
+console.log(children);
+console.log(firstChild);
+console.log(lastChild);*/
+
+let coffeeItem = document.querySelectorAll('.coffee-item') [1];
+let parentDiv = coffeeItem.parentElement.parentElement;
+console.log(parentDiv);
+
+let nextSibling = coffeeItem.nextElementSibling;
+let previousSibling = coffeeItem.previousElementSibling;
+console.log(nextSibling);
+console.log(previousSibling);
+
+
+
+
+
+
+
+
 
 
 
